@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Payment } from './core/domain/payment/payment';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
   title: string;
 
+  constructor(
+  ) {
+  }
+
   ngOnInit() {
-   this.title = 'Desafio Picpay Front-end';
+   this.title = 'PayFriends Project';
   }
 }
